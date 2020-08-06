@@ -5,14 +5,14 @@ import{
     Route,
     Redirect 
  }from 'react-router-dom';
-import Home from '../components/Home'
-import Light from '../components/Light'
-import Sound from '../components/Sound'
-import Disruptive from '../components/Disruptive'
-import Lab from '../components/Lab'
-import Showreel from '../components/ShowReel'
-import { NavBar } from '../components/NavBar';
-import { MenuTitulo } from '../components/MenuTitulo';
+import Home from './Home'
+import Light from './Light'
+import Sound from './Sound'
+import Disruptive from './Disruptive'
+import Lab from './Lab'
+import Showreel from './ShowReel'
+import { NavBar } from './NavBar';
+import { MenuTitulo } from './MenuTitulo';
 
 export const MenuPrincipal = () => {
     return (
