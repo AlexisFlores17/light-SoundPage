@@ -3,7 +3,7 @@ import React, {useEffect, useRef} from "react";
 import arrow from '../images/arrow-right.svg'
 import { useHistory } from "react-router-dom";
 
-function Home() {
+export function DescripcionInicial() {
 
   return (
   <p className="selected">
@@ -13,4 +13,3 @@ function Home() {
   );
 }
 
-export default Home;

@@ -5,7 +5,7 @@ import{
     Route,
     Redirect 
  }from 'react-router-dom';
-import Home from './Home'
+import {DescripcionInicial} from './DescripcionInicial'
 import Light from './Light'
 import Sound from './Sound'
 import Disruptive from './Disruptive'
@@ -23,7 +23,7 @@ export const MenuPrincipal = () => {
                     <MenuTitulo/>
                     <Switch>
                         <Route exact path="/">
-                        <Home />
+                        <DescripcionInicial />
                         </Route>
                         <Route path="/Light">
                         <Light />
