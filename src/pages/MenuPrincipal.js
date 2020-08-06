@@ -14,7 +14,7 @@ import Showreel from '../components/ShowReel'
 import { NavBar } from '../components/NavBar';
 import { MenuTitulo } from '../components/MenuTitulo';
 
-export const AppRouter = () => {
+export const MenuPrincipal = () => {
     return (
             <Router>
             <div>
