@@ -1,7 +1,5 @@
-import React, {useEffect, useRef} from "react";
+import React from "react";
 
-
-import arrow from '../images/arrow-right.svg'
 
 function Light() {
   

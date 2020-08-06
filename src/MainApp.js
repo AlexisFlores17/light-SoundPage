@@ -6,8 +6,10 @@ import { MenuPrincipal } from './pages/MenuPrincipal'
 export const MainApp = () => {
     return (
         <div>
-            <MenuPrincipal/>
-            
+            <div>
+                <MenuPrincipal/>  
+            </div>
+
         </div>
     )
 }

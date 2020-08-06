@@ -3,44 +3,43 @@ import{
     BrowserRouter as Router,
     Switch,
     Route,
-    Redirect 
  }from 'react-router-dom';
 import {DescripcionInicial} from './DescripcionInicial'
 import Light from './Light'
 import Sound from './Sound'
 import Disruptive from './Disruptive'
 import Lab from './Lab'
-import Showreel from './ShowReel'
-import { NavBar } from './NavBar';
+import { header, Header } from './Header';
 import { MenuTitulo } from './MenuTitulo';
 
 export const MenuPrincipal = () => {
     return (
             <Router>
             <div>
-                <NavBar/>
+                <Header/>
                 <div>
-                    <MenuTitulo/>
-                    <Switch>
-                        <Route exact path="/">
-                        <DescripcionInicial />
-                        </Route>
-                        <Route path="/Light">
-                        <Light />
-                        </Route>
-                        <Route path="/Sound">
-                        <Sound />
-                        </Route>
-                        <Route path="/Disruptive">
-                        <Disruptive />
-                        </Route>
-                        <Route path="/Lab">
-                        <Lab />
-                        </Route>
-                        <Route path="/Showreel">
-                        <Showreel />
-                        </Route>
-                    </Switch>
+                    <div className='menuPrincipal-titulo '>
+                        <MenuTitulo/> 
+                    </div>         
+                    <div className='menuPrincipal-contenido'>
+                        <Switch>
+                                <Route exact path="/">
+                                <DescripcionInicial />
+                                </Route>
+                                <Route path="/Light">
+                                <Light />
+                                </Route>
+                                <Route path="/Sound">
+                                <Sound />
+                                </Route>
+                                <Route path="/Disruptive">
+                                <Disruptive />
+                                </Route>
+                                <Route path="/Lab">
+                                <Lab />
+                                </Route>
+                        </Switch>
+                    </div>
                 </div>
             </div>
 
