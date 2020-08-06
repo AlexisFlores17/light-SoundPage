@@ -5,14 +5,16 @@ import{
     Route,
     Redirect 
  }from 'react-router-dom';
-import { NavBar } from './components/NavBar';
 import Home from './components/Home'
 import Light from './components/Light'
 import Sound from './components/Sound'
 import Disruptive from './components/Disruptive'
 import Lab from './components/Lab'
-import Header from './components/Header'
 import Showreel from './components/ShowReel'
+import { NavBar } from './components/NavBar';
+import { MenuTitulo } from './components/MenuTitulo';
+import './css/MainApp.scss'
+
 
 export const MainApp = () => {
     return (
@@ -21,6 +23,7 @@ export const MainApp = () => {
                 <div>
                     <NavBar/>
                     <div>
+                        <MenuTitulo/>
                         <Switch>
                             <Route exact path="/">
                             <Home />
