@@ -4,13 +4,11 @@ import{
     Switch,
     Route,
  }from 'react-router-dom';
-import {DescripcionInicial} from './DescripcionInicial'
 import Conocenos from './Conocenos'
 import ShowReel from './ShowReel'
 import Contacto from './Contacto'
 import Home from './Home'
 import {Header } from '../components/Header';
-import { MenuTitulo } from './MenuTitulo';
 
 
 export const MenuPrincipal = () => {
