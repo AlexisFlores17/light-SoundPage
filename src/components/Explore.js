@@ -1,7 +1,7 @@
 import React, {useEffect, useRef} from "react";
 import {Link} from 'react-router-dom'
 import{
-    BrowserRouter as Router,
+    // BrowserRouter as Router,
     Switch,
     Route,
  }from 'react-router-dom';
@@ -13,9 +13,9 @@ import Lab from '../pages/Lab'
 export default function Explore({state}) {
 
   let explore = useRef(null)
-  let revealExplore = useRef(null)
-  let revealExploreBackground = useRef(null)
-  let LSDbackground = useRef(null)
+  // let revealExplore = useRef(null)
+  // let revealExploreBackground = useRef(null)
+  // let LSDbackground = useRef(null)
   
 
 
