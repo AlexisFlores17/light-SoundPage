@@ -1,6 +1,6 @@
 import React from 'react'
 import arrow from '../images/arrow-right.svg'
-import Explore from '../components/Explore'
+
 export default function Home({handleExplore}) {
   return (
     <div className="container">
