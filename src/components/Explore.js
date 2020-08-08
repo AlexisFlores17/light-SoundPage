@@ -188,7 +188,7 @@ export default function Explore({state}) {
               </div>
               <div className="down-navBar">              
               <span>
-                <Link to="/Conocenos" className="link">Conócenos</Link>
+                <Link onMouseEnter={() => handleLSD(divisions[0], LSDbackground)} onMouseOut={() => handleLSDReturn(LSDbackground)} to="/Conocenos" className="link">Conócenos</Link>
               </span>
               <span>
                 <Link to="/Showreel" className="link">Showreel</Link>
