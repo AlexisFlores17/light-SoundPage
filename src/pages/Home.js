@@ -12,11 +12,11 @@ export default function Home({handleExplore}) {
       </div>
 
       <div className="wrapper">
-        <h5>
+        <h5 className="animate__animated animate__fadeInUp">
           Retamos el sentido de lo establecido con propuestas innovadoras en ciencia, arte y tecnología
         </h5>
         <div className="btn-row">
-          <button className="explore-button" onClick={handleExplore} >Explore
+          <button className="explore-button" onClick={handleExplore} >Explorar
             <div className="arrow-icon" >
               <img src={arrow} alt="row"/>
             </div>
