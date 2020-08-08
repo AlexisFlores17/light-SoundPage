@@ -2,53 +2,15 @@ import React, { useState, useEffect } from "react";
 import { withRouter, Link } from "react-router-dom";
 import Explore from "./Explore";
 
-const Header = ({ history }) => {
-  // State of our Menu
-  const [state, setState] = useState({
-    initial: false,
-    clicked: null,
-    menuName: "Menu"
-  });
-  // State of our button
-  const [disabled, setDisabled] = useState(false);
-
+const Header = ({ history, disabled, handleMenu, state, handleState }) => {
   //Use Effect
   useEffect(() => {
     //Listening for page changes.
-    history.listen(() => {
-      setState({ clicked: false, menuName: "Menu" });
+    history.listen(() => {      
+      handleState({ clicked: false, menuName: "" })
+      
     });
-  }, [history]);
-
-  // Toggle menu
-  const handleMenu = () => {
-    disableMenu();
-    if (state.initial === false) {
-      setState({
-        initial: null,
-        clicked: true,
-        menuName: "Volver"
-      });
-    } else if (state.clicked === true) {
-      setState({
-        clicked: !state.clicked,
-        menuName: "Menu"
-      });
-    } else if (state.clicked === false) {
-      setState({
-        clicked: !state.clicked,
-        menuName: "Volver"
-      });
-    }
-  };
-
-  //Determine if out menu button should be disabled
-  const disableMenu = () => {
-    setDisabled(!disabled);
-    setTimeout(() => {
-      setDisabled(false);
-    }, 1200);
-  };
+  }, [history]);  
 
   return (
     <header>
