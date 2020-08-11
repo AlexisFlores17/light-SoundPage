@@ -9,7 +9,7 @@ import ShowReel from './ShowReel'
 import Contacto from './Contacto'
 import {Home} from './Home'
 import Header from '../components/Header';
-
+import Explore from './Explore'
 
 export const MenuPrincipal = () => {
   // State of our Menu
@@ -18,7 +18,16 @@ export const MenuPrincipal = () => {
     <Router>
       <div className="App">
         <Header/>
-        <Home />
+          <Switch>  
+            <Route exact path='/'>
+              <Home />
+            </Route>      
+            <Route path='/explore'>
+              <Explore />
+            </Route>
+            
+          </Switch>
+        
       </div>
     </Router>
   );

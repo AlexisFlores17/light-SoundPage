@@ -4,6 +4,7 @@ import arrow from '../images/arrow-right.svg'
 import desktopVideo from '../videos/LSD1.1.mp4'
 import mobileImage from '../images/lab.png'
 import { useWindowWidth } from '../hooks/useWindowWidth';
+import { Link } from "react-router-dom";
 
 export const Home = ({history}) => {
   
@@ -15,11 +16,14 @@ export const Home = ({history}) => {
           Retamos el sentido de lo establecido con propuestas innovadoras en ciencia, arte y tecnología
         </h5>   
         <div className="btn-row">
-          <button className="explore-button" >Explore
-            <div className="arrow-icon" >
-              <img src={arrow} alt="row"/>
-            </div>
-          </button>
+          <Link to="/explore">
+            <button className="explore-button" >Explore
+              <div className="arrow-icon" >
+                <img src={arrow} alt="row"/>
+              </div>
+            </button>
+          </Link>
+          
         </div>             
     </div>  
         
