@@ -1,12 +1,13 @@
 import React, {useEffect, useState} from 'react'
 import arrow from '../images/arrow-right.svg'
 
-import LSDbackground from '../videos/LSD1.1.mp4'
-import { withRouter, Link } from "react-router-dom";
-const Home = ({history}) => {
+import desktopVideo from '../videos/LSD1.1.mp4'
+import mobileImage from '../images/lab.png'
+import { useWindowWidth } from '../hooks/useWindowWidth';
+
+export const Home = ({history}) => {
   
-  
-  
+  const backgroundUrl = useWindowWidth() >= 650 ? desktopVideo : mobileImage;
   
   return (
     <div className="home-container">
@@ -26,5 +27,3 @@ const Home = ({history}) => {
     
   );
 }
-
-export default withRouter(Home)

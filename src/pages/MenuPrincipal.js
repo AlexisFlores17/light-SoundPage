@@ -7,7 +7,7 @@ import{
 import Conocenos from './Conocenos'
 import ShowReel from './ShowReel'
 import Contacto from './Contacto'
-import Home from './Home'
+import {Home} from './Home'
 import Header from '../components/Header';
 
 
