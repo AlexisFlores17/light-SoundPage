@@ -14,11 +14,6 @@ const Header = ({ history}) => {
             <div className="logo">
               <Link to="/">LSD LAB</Link>
             </div>
-            <div className="menu">
-              <button >
-                Explore
-              </button>
-            </div>
           </div>
         </div>
       </div>
