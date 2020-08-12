@@ -1,6 +1,9 @@
 import React from "react";
 import contactoImg from '../images/contacto.jpg';
-import '../css/MainApp.scss'
+import '../css/MainApp.scss';
+import facebook from '../images/facebook.png';
+import instagram from '../images/instagram.png';
+import gmail from '../images/gmail.png';
 
 function Contacto() {
 
@@ -11,30 +14,30 @@ return (
 				<img className='contacto-img img-fluid' src ={contactoImg} alt='contacto' />
 			</div>		
 
-			<div className='row'>
-				<div>Contacto</div>
+			<div className='col-6'>
+				<div className='col-6'>Contacto</div>
 				<div className='row'>
-					<div>
-
+					<div className='col-6'>
+						<img src={facebook}/>
 					</div>
-					<div>
-					
+					<div className='col-6'>
+						https://www.facebook.com/lab.lsd
 					</div>
 				</div>
 				<div className='row'>
-					<div>
-
+					<div className='col-6'>
+						<img src={instagram}/>
 					</div>
-					<div>
-
+					<div className='col-6'>
+						https://www.facebook.com/lab.lsd
 					</div>
 				</div>
 				<div className='row'>
-					<div>
-
+					<div className='col-6'>
+						<img src={gmail}/>
 					</div>
-					<div>
-
+					<div className='col-6'>
+						https://www.facebook.com/lab.lsd
 					</div>
 				</div>
 			</div>
