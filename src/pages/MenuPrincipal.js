@@ -13,7 +13,6 @@ import Explore from './Explore'
 
 export const MenuPrincipal = () => {
   // State of our Menu
-
   return (    
     <Router>
       <div className="App">
@@ -25,9 +24,16 @@ export const MenuPrincipal = () => {
             <Route path='/explore'>
               <Explore />
             </Route>
-            
-          </Switch>
-        
+            <Route path='/Conocenos'>
+              <Conocenos />
+            </Route>
+            <Route path='/Showreel'>
+              <ShowReel />
+            </Route>
+            <Route path='/Contacto'>
+              <Contacto />
+            </Route>
+          </Switch>        
       </div>
     </Router>
   );
