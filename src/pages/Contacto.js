@@ -14,13 +14,28 @@ return (
 			<div className='row'>
 				<div>Contacto</div>
 				<div className='row'>
-				
+					<div>
+
+					</div>
+					<div>
+					
+					</div>
 				</div>
 				<div className='row'>
+					<div>
 
+					</div>
+					<div>
+
+					</div>
 				</div>
 				<div className='row'>
+					<div>
 
+					</div>
+					<div>
+
+					</div>
 				</div>
 			</div>
 		</div>	
