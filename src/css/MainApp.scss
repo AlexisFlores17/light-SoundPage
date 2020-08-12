@@ -84,42 +84,7 @@ body {
   }
 }
 
-// MD screen size
-@media  (max-width: 768px){
-  header{
-    .container{
-      padding: 0 30px !important;
-    }
-  }
-  .home-container{
-    top: 50%;
-    padding-left: 30px;
-    .btn-row{
-      margin-top: 40px;
-      button{
-        font-weight: 500;
-        font-size: 15px;
-        .arrow-icon{
-          margin-left: 26px;
-          height: 53px;
-          width: 53px;
-        }
-      }
-    }
-  }
-}
 
-// SM screen size
-@media  (max-width: 576px){
-
-  .home-container{
-    top: 50%;
-    .btn-row{
-      margin-top: 60px;
-    }
-  }
-
-}
   
 
 header {   
@@ -169,7 +134,7 @@ header {
           height: 75px;
           font-size: 2rem;
         }
-        @media(max-height: 700px){
+        @media(max-height: 810px){
           height: 105px;
           font-size: 4rem;
         }
@@ -184,26 +149,55 @@ header {
       }
     }
   }
-  .down-navBar {    
-    position: absolute;    
-    color: #fff;    
-    font-size: 1rem;
-    font-weight: 600;
-    span {
-      cursor: pointer;          
-      &:first-child {
-        margin-left: 64px;
-      }            
-      font-weight: 400;
-      margin: 0 32px;
-      transition: 0.3s ease-in-out;
-      &:hover {
-        color: #fff;
-        background: $black;
-        padding: 8px 24px;
-        border-radius: 4px;
-      }
+  
+}
 
+.down-navBar {  
+  margin: 40px 0 60px -60px;
+  div{
+    display: inline-block;
+    text-align: center;
+    .link{
+      color: white;
     }
   }
+}
+
+// -------------------------RESPONSIVE----------------------------
+
+// MD screen size
+@media  (max-width: 768px){
+  header{
+    .container{
+      padding: 0 30px !important;
+    }
+  }
+  .home-container{
+    top: 50%;
+    padding-left: 30px;
+    .btn-row{
+      margin-top: 40px;
+      button{
+        font-weight: 500;
+        font-size: 15px;
+        .arrow-icon{
+          margin-left: 26px;
+          height: 53px;
+          width: 53px;
+        }
+      }
+    }
+  }
+}
+
+// SM screen size
+@media  (max-width: 576px){
+
+  .home-container{
+    top: 50%;
+    .btn-row{
+      margin-top: 60px;
+    }
+  }
+
 }
