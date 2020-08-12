@@ -184,6 +184,17 @@ header {
 }
 
 
+#div-img-contacto{
+  overflow: hidden;
+  height: 200px;
+    img{
+      position:relative;
+      width: 100%;
+      top: -500px;
+    }
+}
+
+
 // -------------------------RESPONSIVE----------------------------
 
 // MD screen size

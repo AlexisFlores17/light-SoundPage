@@ -7,7 +7,7 @@ function Contacto() {
 return (    
 	<>
 		<div className='col-12'>
-			<div>
+			<div id='div-img-contacto'>
 				<img className='contacto-img img-fluid' src ={contactoImg} alt='contacto' />
 			</div>		
 
