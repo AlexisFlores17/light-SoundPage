@@ -29,7 +29,7 @@ return (
 						<img src={instagram}/>
 					</div>
 					<div className='col-6'>
-						https://www.facebook.com/lab.lsd
+						https://www.instagram.com/lsd.labs
 					</div>
 				</div>
 				<div className='row'>
@@ -37,7 +37,7 @@ return (
 						<img src={gmail}/>
 					</div>
 					<div className='col-6'>
-						https://www.facebook.com/lab.lsd
+						contacto@lsdlab.com.mx
 					</div>
 				</div>
 			</div>
