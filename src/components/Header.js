@@ -12,7 +12,7 @@ const Header = ({ history}) => {
         <div className="wrapper">
           <div className="inner-header">
             <div className="logo">
-              <Link to="/">LSD LAB</Link>
+              <Link to="/">LSD LAB.</Link>
             </div>
           </div>
         </div>
