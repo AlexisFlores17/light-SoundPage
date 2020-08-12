@@ -147,10 +147,7 @@ header {
 .explore-container {
   margin: 0;
   padding-left: 60px;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+  position: absolute;  
   width: 100%;  
   nav {    
     ul {      
@@ -172,8 +169,12 @@ header {
           height: 75px;
           font-size: 2rem;
         }
+        @media(max-height: 620px){
+          height: 105px;
+          font-size: 4rem;
+        }
         a {
-          position: absolute;
+          
           color: #fff;
           text-decoration: none;
           &:hover {
