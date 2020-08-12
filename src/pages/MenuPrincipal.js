@@ -24,18 +24,22 @@ export const MenuPrincipal = () => {
             </Route>      
             <Route path='/explore'>
               <Explore />
+              <Footer/>
             </Route>
             <Route path='/Conocenos'>
               <Conocenos />
+              <Footer/>
             </Route>
             <Route path='/Showreel'>
               <ShowReel />
+              <Footer/>
             </Route>
             <Route path='/Contacto'>
               <Contacto />
+              <Footer/>
             </Route>
           </Switch>  
-          <Footer/>      
+                
       </div>
     </Router>
   );
