@@ -184,4 +184,26 @@ header {
       }
     }
   }
+  .down-navBar {    
+    position: absolute;    
+    color: #fff;    
+    font-size: 1rem;
+    font-weight: 600;
+    span {
+      cursor: pointer;          
+      &:first-child {
+        margin-left: 64px;
+      }            
+      font-weight: 400;
+      margin: 0 32px;
+      transition: 0.3s ease-in-out;
+      &:hover {
+        color: #fff;
+        background: $black;
+        padding: 8px 24px;
+        border-radius: 4px;
+      }
+
+    }
+  }
 }

@@ -1,6 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 
+
 export default function Explore() {
     return (
         <div className="explore-container">
@@ -21,6 +22,17 @@ export default function Explore() {
 
                 </ul>
               </nav>
+              <div className="down-navBar">              
+                <span>
+                  <Link to="/Conocenos" className="link">Conócenos</Link>
+                </span>
+                <span>
+                  <Link to="/Showreel" className="link">Showreel</Link>
+                </span>
+                <span>
+                  <Link to="/Contacto" className="link">Contacto</Link>
+                </span>                
+              </div>
         </div>
     )
 }
