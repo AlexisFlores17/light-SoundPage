@@ -8,7 +8,7 @@ export const Home = ({history}) => {
   return (
     <>
       <div className="videoContainer">
-        <video autoPlay muted loop className="myVideo" type="video/mp4">
+        <video autoPlay muted loop className="myVideo" type="video/mp4" playsInline>
           <source src={LSDbackground} />
         </video>
       </div>
