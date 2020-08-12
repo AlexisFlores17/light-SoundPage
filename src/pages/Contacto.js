@@ -6,11 +6,15 @@ function Contacto() {
 
 return (    
 	<>
-		<div>
-			<img className='contacto-img img-fluid' src ={contactoImg} alt='contacto' />
-		</div>		
+		<div className='col-12'>
+			<div>
+				<img className='contacto-img img-fluid' src ={contactoImg} alt='contacto' />
+			</div>		
 
-		<div>Contacto</div>
+			<div className='row'>
+				<div>Contacto</div>
+			</div>
+		</div>	
 	</>
 	)
 }
