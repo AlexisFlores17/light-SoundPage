@@ -8,8 +8,8 @@ export const ResponsivePlayer = () => {
           <ReactPlayer
             className='react-player'
             url="https://player.vimeo.com/video/189176993"
-            width='80%'
-            height='80%'
+            width='100%'
+            height='100%'
             controls={true}
           />
         </div>

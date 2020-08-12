@@ -5,12 +5,8 @@ import { ResponsivePlayer } from "../components/ResponsivePlayer";
 function Showreel() {
 
 return (
-	<>
+	<>  
 		<ResponsivePlayer/>
-
-		<div>
-              <Link to="/explore" className="link">Regresar</Link>
-        </div>   
 	</>
 	);  
 }
