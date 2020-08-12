@@ -34,7 +34,7 @@ return (
 	</div>
 
 	<div className="container" style={{backgroundColor:"pink"}}>
-		<div className="row">			
+		<div className="row" id="foto-conocenos">			
 			{team.map((member) =>
 				<div className="col-12 col-md-6 col-lg-4">
 					<TeamMember name={member.name} descripcion={member.descripcion} imagen = {member.imagen}/>
