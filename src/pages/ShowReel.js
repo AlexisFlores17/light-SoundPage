@@ -1,4 +1,4 @@
-import React from "react";
+import React ,{Component }from "react";
 import { Link } from "react-router-dom";
 
 function Showreel() {
@@ -16,6 +16,7 @@ return (
 				width="100%" height="90%" frameBorder="0" allow="autoplay; fullscreen" allowFullScreen>
 				
 		</iframe>
+
 		<div className="col-sm-4 col-12">
               <Link to="/explore" className="link">Regresar</Link>
         </div>   
