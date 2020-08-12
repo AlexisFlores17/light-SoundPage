@@ -10,6 +10,7 @@ import Contacto from './Contacto'
 import {Home} from './Home'
 import Header from '../components/Header';
 import Explore from './Explore'
+import Footer from '../components/Footer'
 
 export const MenuPrincipal = () => {
   // State of our Menu
@@ -33,7 +34,8 @@ export const MenuPrincipal = () => {
             <Route path='/Contacto'>
               <Contacto />
             </Route>
-          </Switch>        
+          </Switch>  
+          <Footer/>      
       </div>
     </Router>
   );
