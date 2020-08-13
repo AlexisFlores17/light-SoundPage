@@ -138,6 +138,10 @@ header {
           height: 105px;
           font-size: 4rem;
         }
+        @media(max-height: 630px){
+          height: 87px !important;
+          font-size: 3rem !important;
+        }
         a {
           position: absolute;
           color: #fff;
@@ -154,12 +158,63 @@ header {
 
 .down-navBar {  
   margin: 40px 0 60px -60px;
+  @media(max-height: 630px){
+    margin: 20px 0 60px -60px;
+  }
   div{
     display: inline-block;
     text-align: center;
-    .link{
+    .link{      
+      position: relative;
+      display: block;
+      margin: 20px 20px;
+      padding: 10px 0px;
+      text-decoration: none;
       color: white;
+      font-size: 18px;
+      font-weight: 300;
+      transition: .5s;
+      z-index: 1;
+      &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-top: 2px solid #262626;
+        border-bottom: 2px solid white;
+        transform: scaleY(2);
+        opacity: 0;
+        transition: .3s;
+      }
+      &:after {
+        content: '';
+        position: absolute;
+        top: 2px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #262626;
+        transform: scale(0);
+        opacity: 0;
+        transition: .3s;
+        z-index: -1;
+      }
+      &:hover {
+        color: #fff;
+        &:before {
+          transform: scaleY(1);
+          opacity: 1;
+        }
+        &:after {
+          transform: scaleY(1);
+          opacity: 1;
+        }
+      
+      }
     }
+    
   }
 }
 
