@@ -39,9 +39,12 @@ export const AppRoutes = () => {
                         <Contacto />
                         <Footer/>
                     </Route>
-                    <Redirect to='/404'>
+                    <Route path='/404'>
                         <PageError />
-                    </Redirect>
+                        <Footer />
+                    </Route>
+                    <Redirect to='/404' />
+
                 </Switch>  
                         
             </div>
