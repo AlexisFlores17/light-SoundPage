@@ -254,7 +254,7 @@ footer{
   position: relative;
   margin-bottom: 10px;
   .footer-container{
-    margin-top: 10%;
+    margin-top: 10%;    
     .contactanos{
       font-size: 35px;      
     }
@@ -268,6 +268,7 @@ footer{
       font-size: 15px;      
     }
     .copyright{
+      
       font-size: 10px;      
       position: absolute;
       bottom: 10px;
@@ -282,17 +283,40 @@ footer{
   text-align: center;
   font-weight: 400;
   font-size: 1.36363636em;
-  line-height: 1.46666667;  
-  
+  line-height: 1.5;  
+  margin-bottom: 30%;  
   .content{    
-    width: 600px;
+    width: 80%;
     margin: 0 auto;
+    font-weight: 100;
     .description{
-      margin-bottom: 40px;
+      margin-bottom: 40px;  
       margin-top: 30%;
+    }
+    h2{
+      font-weight: 300;
+      margin-bottom: 40px;  
+    }
+    p{      
+      margin-bottom: 40px;  
     }
     
   }
+}
+
+//teamMember
+.teamMember-container{
+  margin-bottom: 50px;
+  color: white;
+  .name{
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  .descripcion{
+    margin-top: 10px;
+    font-weight: 300;
+  }
+
 }
 
 
