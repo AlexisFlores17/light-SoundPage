@@ -17,7 +17,7 @@ export const ExploreRoutes = () => {
             <Route exact path="/explore/Sound" component={Sound} />
             <Route exact path="/explore/Disruptive" component={Disruptive} />
             <Route exact path="/explore/Lab" component={Lab} />
-            <Redirect to='404/' />
+            <Redirect to='/explore' />
         </Switch>
     )
 }
