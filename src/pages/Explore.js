@@ -26,9 +26,11 @@ export default function Explore() {
     return (
       <>
         <div className="explore-container">
-          <nav>
-            <ul>
-              <li>
+          <div className='row'>
+            <div className='col-5'>
+              <nav>
+                <ul>
+                  <li>
                     <Link onMouseEnter={e => handleHover(e)} onMouseOut={e => handleHoverExit(e)} to="/explore/Light">Light</Link>
                   </li>
                   <li>
@@ -39,12 +41,13 @@ export default function Explore() {
                   </li>
                   <li>
                     <Link onMouseEnter={e => handleHover(e)} onMouseOut={e => handleHoverExit(e)}  to="/explore/Lab">Lab</Link>
-                </li>
-
-            </ul>
-          </nav>
-          <div className="division-services">                             
-              <ExploreRoutes />
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div className="division-services col-7 align-middle" style= {{height:"100%"}}>                             
+                <ExploreRoutes />
+            </div>
           </div>
           <div className="down-navBar">              
             <div className="col-sm-4 col-12">
