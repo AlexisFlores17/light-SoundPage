@@ -51,13 +51,13 @@ export default function Explore() {
           </nav>
           <div className="down-navBar">              
             <div className="col-sm-4 col-12">
-              <Link to="/Conocenos" className="link">Conócenos</Link>
+              <Link to="/Conocenos" className="link btn-2">Conócenos</Link>
             </div>
             <div className="col-sm-4 col-12">
-              <Link to="/Showreel" className="link">Showreel</Link>
+              <Link to="/Showreel" className="link btn-2">Showreel</Link>
             </div>
             <div className="col-sm-4 col-12">
-              <Link to="/Contacto" className="link">Contacto</Link>
+              <Link to="/Contacto" className="link btn-2">Contacto</Link>
             </div>                
           </div>
         </div>
