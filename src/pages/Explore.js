@@ -36,26 +36,26 @@ export default function Explore() {
           <nav>
             <ul>
               <li>
-                    <Link onMouseEnter={e => handleHover(e)} onMouseOut={e => handleHoverExit(e)} to="/Light">Light</Link>
+                    <Link onMouseEnter={e => handleHover(e)} onMouseOut={e => handleHoverExit(e)} to="/explore/Light">Light</Link>
                   </li>
                   <li>
-                    <Link onMouseEnter={e => handleHover(e)} onMouseOut={e => handleHoverExit(e)}  to="/Sound">& Sound</Link>
+                    <Link onMouseEnter={e => handleHover(e)} onMouseOut={e => handleHoverExit(e)}  to="/explore/Sound">& Sound</Link>
                   </li>
                   <li>
-                    <Link onMouseEnter={e => handleHover(e)} onMouseOut={e => handleHoverExit(e)} to="/Disruptive">Disruptive</Link>
+                    <Link onMouseEnter={e => handleHover(e)} onMouseOut={e => handleHoverExit(e)} to="/explore/Disruptive">Disruptive</Link>
                   </li>
                   <li>
-                    <Link onMouseEnter={e => handleHover(e)} onMouseOut={e => handleHoverExit(e)}  to="/Lab">Lab</Link>
+                    <Link onMouseEnter={e => handleHover(e)} onMouseOut={e => handleHoverExit(e)}  to="/explore/Lab">Lab</Link>
                 </li>
 
             </ul>
           </nav>
             <div className="division-services">                             
               <Switch>                       
-                  <Route exact path="/Light" component={Light} />
-                  <Route exact path="/Sound" component={Sound} />
-                  <Route exact path="/Disruptive" component={Disruptive} />
-                  <Route exact path="/Lab" component={Lab} />
+                  <Route exact path="/explore/Light" component={Light} />
+                  <Route exact path="/explore/Sound" component={Sound} />
+                  <Route exact path="/explore/Disruptive" component={Disruptive} />
+                  <Route exact path="/explore/Lab" component={Lab} />
               </Switch>
           </div>
           <div className="down-navBar">              
