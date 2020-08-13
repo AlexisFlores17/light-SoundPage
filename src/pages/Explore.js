@@ -45,7 +45,7 @@ export default function Explore() {
                 </ul>
               </nav>
             </div>
-            <div className="division-services col-7 align-middle" >                             
+            <div className="division-services col-7 align-self-center" >                             
                 <ExploreRoutes />
             </div>
           </div>
