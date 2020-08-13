@@ -5,7 +5,6 @@ import {
     Route,
     Redirect
   } from "react-router-dom";
-import { ExploreRoutes } from './ExploreRoutes';
 import Conocenos from '../pages/Conocenos';
 import Footer from '../components/Footer';
 import Showreel from '../pages/ShowReel';
@@ -13,6 +12,7 @@ import Contacto from '../pages/Contacto';
 import { PageError } from '../pages/PageError';
 import { Home } from '../pages/Home';
 import Header from '../components/Header';
+import Explore from '../pages/Explore';
 
 export const AppRoutes = () => {
     return (
@@ -24,7 +24,7 @@ export const AppRoutes = () => {
                         <Home />
                     </Route>      
                     <Route path='/explore'>
-                        <ExploreRoutes />
+                        <Explore />
                         <Footer/>
                     </Route>
                     <Route path='/Conocenos'>
@@ -39,7 +39,7 @@ export const AppRoutes = () => {
                         <Contacto />
                         <Footer/>
                     </Route>
-                    <Route path='/404'>
+                    <Route exact path='/404'>
                         <PageError />
                         <Footer />
                     </Route>

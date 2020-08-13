@@ -1,14 +1,8 @@
-import React, {useRef, useEffect} from 'react'
+import React from 'react'
 import {Link} from 'react-router-dom'
-import Light from './Light'
-import Sound from './Sound'
-import Disruptive from './Disruptive'
-import Lab from './Lab'
-import{  
-  Switch,
-  Route,
-}from 'react-router-dom';
 import gsap from 'gsap'
+import { ExploreRoutes } from '../routes/ExploreRoutes'
+
 
 export default function Explore() {  
   const handleHover = e => {    
@@ -35,20 +29,23 @@ export default function Explore() {
           <nav>
             <ul>
               <li>
-                    <Link onMouseEnter={e => handleHover(e)} onMouseOut={e => handleHoverExit(e)} to="explore/Light">Light</Link>
+                    <Link onMouseEnter={e => handleHover(e)} onMouseOut={e => handleHoverExit(e)} to="/explore/Light">Light</Link>
                   </li>
                   <li>
-                    <Link onMouseEnter={e => handleHover(e)} onMouseOut={e => handleHoverExit(e)}  to="explore/Sound">& Sound</Link>
+                    <Link onMouseEnter={e => handleHover(e)} onMouseOut={e => handleHoverExit(e)}  to="/explore/Sound">& Sound</Link>
                   </li>
                   <li>
-                    <Link onMouseEnter={e => handleHover(e)} onMouseOut={e => handleHoverExit(e)} to="explore/Disruptive">Disruptive</Link>
+                    <Link onMouseEnter={e => handleHover(e)} onMouseOut={e => handleHoverExit(e)} to="/explore/Disruptive">Disruptive</Link>
                   </li>
                   <li>
-                    <Link onMouseEnter={e => handleHover(e)} onMouseOut={e => handleHoverExit(e)}  to="explore/Lab">Lab</Link>
+                    <Link onMouseEnter={e => handleHover(e)} onMouseOut={e => handleHoverExit(e)}  to="/explore/Lab">Lab</Link>
                 </li>
 
             </ul>
           </nav>
+            <div className="division-services">                             
+              <ExploreRoutes />
+          </div>
           <div className="down-navBar">              
             <div className="col-sm-4 col-12">
               <Link to="/Conocenos" className="link btn-2">Conócenos</Link>
