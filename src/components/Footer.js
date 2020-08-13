@@ -2,12 +2,16 @@ import React from 'react'
 
 export default function Footer() {
     return (
-        <div style={{backgroundColor:"green"}}>
-            <h3>Contáctanos</h3>
-            <h4>Nos encantaría escuchar tu proyecto</h4>
-            <div>+52 555 55 55</div>
-            <div>contacto@lsdlab.com.mx</div>
-            <div>© LSD LAB 2020</div>
-        </div>
+        <footer>
+            <div className="footer-container">
+                <div className="contactanos">Contáctanos</div>
+                <div className="project">Nos encantaría escuchar tu proyecto</div>
+                <br/>
+                <div className="phone">+52 1 55 2746 0988</div>
+                <div className="mail">contacto@lsdlab.com.mx</div>
+                <div className="copyright">© LSD LAB 2020</div>
+            </div>
+        </footer>
+        
     )
 }

@@ -67,8 +67,7 @@ body {
       &:focus {
         outline: none;
       }
-      .arrow-icon{
-        position: absolute;
+      .arrow-icon{        
         display: flex;
         align-items: center;
         justify-content: center;
@@ -113,8 +112,7 @@ header {
 //Explore
 .explore-container {
   margin: 0;
-  padding-left: 60px;
-  position: absolute;  
+  padding-left: 60px;  
   width: 100%;  
   nav {    
     ul {      
@@ -245,6 +243,56 @@ width: 70%;
       width: 100%;
       top: -320px;
     }
+}
+
+
+
+//footer
+footer{
+  text-align: center;
+  color: white;   
+  position: relative;
+  margin-bottom: 10px;
+  .footer-container{
+    margin-top: 10%;
+    .contactanos{
+      font-size: 35px;      
+    }
+    .project{
+      font-size: 20px;      
+    }
+    .phone{
+      font-size: 15px;      
+    }
+    .mail{
+      font-size: 15px;      
+    }
+    .copyright{
+      font-size: 10px;      
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+    }
+  }
+}
+
+//conocenos
+.conocenos-container{
+  color: white;
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.36363636em;
+  line-height: 1.46666667;  
+  
+  .content{    
+    width: 600px;
+    margin: 0 auto;
+    .description{
+      margin-bottom: 40px;
+      margin-top: 30%;
+    }
+    
+  }
 }
 
 

@@ -20,17 +20,17 @@ function Conocenos() {
 	
 return (
 	<>
-	<div >
-		<h2>Conócenos</h2>
-		<h3>Filosofia</h3>		
-		<h3>"Sólo sabemos que no sabemos nada"</h3>		
-		<p>Contribuir como agente de cambio e innovación con soluciones tecnológicas para las industrias creativas</p>
-		<h3>Valores</h3>		
-		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-		<h3>Equipo</h3>		
-		
-		
-		
+	<div className="conocenos-container" >
+			
+		<div className="content">
+			<div className="description">Somos un equipo de creadores, pensadores, exploradores y nerds tecnológicos. Nos enfocamos en nuestros proyectos con curiosidad y experimentación, usando todo lo que aprendemos para diseñar experiencias que conecten con personas como tú.</div>
+			<div></div>
+			<h2>Filosofía</h2>		
+			<p>"Sólo sabemos que no sabemos nada"</p>		
+			<h2>Misión</h2>		
+			<p>Contribuir como agente de cambio e innovación con soluciones tecnológicas para las industrias creativas</p>				
+		</div>
+				
 	</div>
 
 	<div className="container">
