@@ -43,7 +43,7 @@ export default function Explore() {
 
             </ul>
           </nav>
-            <div className="division-services">                             
+          <div className="division-services">                             
               <ExploreRoutes />
           </div>
           <div className="down-navBar">              
