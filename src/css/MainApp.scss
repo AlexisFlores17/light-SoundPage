@@ -248,40 +248,79 @@ width: 70%;
     }
 }
 
-.division-services{
-  
-}
-
-
-
 //footer
 footer{
   text-align: center;
   color: white;   
   position: relative;
   margin-bottom: 10px;
-  .footer-container{
-    margin-top: 10%;    
-    .contactanos{
-      font-size: 35px;      
+  margin-top: 10%;    
+  
+  
+    .contactanos{      
+      font-size: 35px; 
+      font-weight: 300;     
     }
     .project{
       font-size: 20px;      
+      font-weight: 100;     
     }
-    .phone{
-      font-size: 15px;      
-    }
+    .contact{
+      a{
+        text-decoration: none;
+        color: white;
+        font-size: 18px;   
+        border-bottom: 1px solid;   
+        line-height: 2em;
+        transition-duration: 300ms;
+        &:hover{
+          color: gray;
+        }
+      }
+    }    
     .mail{
-      font-size: 15px;      
+      font-size: 18px;      
+      margin-bottom: 10px;
+      border-bottom: 1px solid;
     }
-    .copyright{
-      
-      font-size: 10px;      
-      position: absolute;
-      bottom: 10px;
-      right: 10px;
+    .siguenos{
+      font-weight: 300;
     }
-  }
+    .social-icons{      
+      margin-top: 2rem;
+      .icon{    
+        border-radius: 50%;
+        border: solid;
+        border-width: 1px;
+        border-color: white;
+        color: white;
+        transition-duration: 300ms;
+        &:hover{
+          background-color: $magenta;
+          
+        }
+        width: 3rem;
+        height: 3rem;
+        position: relative;
+        display: inline-block;    
+        margin-left: 2rem;  
+        .icon-text{
+          
+          font-weight: 300;
+          font-size: 12px;
+          margin: 0;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+      }
+    }
+
+    .copyright{      
+      font-size: 10px;            
+      margin-left: 10px;
+    }
 }
 
 //conocenos
@@ -325,6 +364,7 @@ footer{
   }
 
 }
+
 
 
 // -------------------------RESPONSIVE----------------------------
