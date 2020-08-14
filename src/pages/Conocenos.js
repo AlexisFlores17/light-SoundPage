@@ -3,6 +3,7 @@ import TeamMember from '../components/TeamMember'
 import destruido from '../images/destruido.JPG'
 import lorenzo from '../images/lorenzo.png'
 import alex from '../images/alex.JPG'
+import Reveal from "react-reveal/Fade";
 
 
 const team = [
@@ -19,7 +20,7 @@ const team = [
 function Conocenos() {
 	
 return (
-	<>
+	<Reveal effect="fadeinup" duration="2000">
 	<div className="conocenos-container" >
 			
 		<div className="content">
@@ -44,7 +45,7 @@ return (
 		
 	</div>
 	
-	</>
+	</Reveal>
 		
 	
 	)
