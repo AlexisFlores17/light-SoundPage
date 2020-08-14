@@ -1,9 +1,12 @@
 
 
 .division-services{
-  background-color: blue;
-    p{
-
-      color: white;
-    }
+    background-color: blue;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+        p{
+            align-content: center;
+            color: white;
+        }
 }
