@@ -7,19 +7,25 @@ function Light() {
 
 
   return (  
-    <Fade bottom cascade>
       <div>
         <p>
-          Realidad Aumentada 
+          <Fade top cascade>
+            Realidad Aumentada
+          </Fade>
           <br/>
-          Realidad Virtual
+          <Fade top cascade>
+            Realidad Virtual
+          </Fade>
           <br/>
-          Video Mapping
+          <Fade top cascade>
+            Video Mapping
+          </Fade>
           <br/>
-          Publicidad Holográfica
+          <Fade top cascade>
+            Publicidad Holográfica
+          </Fade>
         </p>
-      </div>
-    </Fade>              
+      </div>              
   );
 }
 

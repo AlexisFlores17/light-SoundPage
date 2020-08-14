@@ -1,22 +1,22 @@
 import React from "react";
-import Fade from "react-reveal/Fade";
+import Zoom from "react-reveal/Fade";
 
 function Lab() {
  
   return (
-    <Fade bottom cascade>
+    
       <div>
         <p className="selected">
-          Proyectos Personalizados
+         <Zoom cascade> Proyectos Personalizados</Zoom>
           <br/>
-          Inteligencia Artificial
+          <Zoom cascade>Inteligencia Artificial</Zoom>
           <br/>
-          Sistemas Autónomos
+          <Zoom cascade>Sistemas Autónomos</Zoom>
           <br/>
-          Drones
+          <Zoom cascade>Drones</Zoom>
         </p>   
       </div>
-    </Fade>
+    
            
   );
 }
