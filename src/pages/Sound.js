@@ -5,7 +5,7 @@ function Sound() {
 
   return (
     <Fade cascade>
-      <div>
+      <h5>
         <p className="selected">
           Consultoria y Diseño Acústico
           <br/>
@@ -13,7 +13,7 @@ function Sound() {
           <br/>
           Diseño de Spots                
         </p>
-      </div>
+      </h5>
     </Fade>             
   );
 }

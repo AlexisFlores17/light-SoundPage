@@ -7,7 +7,7 @@ function Light() {
 
 
   return (  
-      <div>
+      <h5>
           <Fade top cascade>
             Realidad Aumentada
           </Fade>
@@ -23,7 +23,7 @@ function Light() {
           <Fade top cascade>
             Publicidad Holográfica
           </Fade>
-      </div>              
+      </h5>              
   );
 }
 

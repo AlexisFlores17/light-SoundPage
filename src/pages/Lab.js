@@ -5,7 +5,7 @@ function Lab() {
  
   return (
     <Reveal effect="fadeInUp">
-      <div>
+      <h5>
         <p className="selected">
           Proyectos Personalizados
           <br/>
@@ -15,7 +15,7 @@ function Lab() {
           <br/>
           Drones
         </p>   
-      </div>
+      </h5>
     </Reveal>         
   );
 }

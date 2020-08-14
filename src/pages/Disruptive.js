@@ -7,7 +7,7 @@ function Disruptive() {
 
   return (
     <Fade bottom cascade>
-      <div>
+      <h5>
         <p className="selected">
           Desarrollo de Apps
           <br/>
@@ -15,7 +15,7 @@ function Disruptive() {
           <br/>
           Domótica
         </p>         
-      </div>
+      </h5>
     </Fade>
 
   );
