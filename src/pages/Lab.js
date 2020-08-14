@@ -1,21 +1,23 @@
 import React from "react";
-
+import Fade from "react-reveal/Fade";
 
 function Lab() {
  
-
-
-
   return (
-    <p className="selected">
-      Drones 
-      <br/>
-      Inteligencia Artificial
-      <br/>
-      Sistemas Autónomos
-      <br/>
-      Proyectos Personzalizados
-    </p>              
+    <Fade bottom cascade>
+      <div>
+        <p className="selected">
+          Proyectos Personalizados
+          <br/>
+          Inteligencia Artificial
+          <br/>
+          Sistemas Autónomos
+          <br/>
+          Drones
+        </p>   
+      </div>
+    </Fade>
+           
   );
 }
 

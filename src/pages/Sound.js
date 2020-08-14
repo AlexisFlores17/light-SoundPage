@@ -1,16 +1,20 @@
 import React from "react";
-
+import Fade from "react-reveal/Fade";
 
 function Sound() {
 
   return (
-    <p className="selected">
-      Consultoria y Diseño Acústico
-      <br/>
-      Musica Publicitaria 
-      <br/>
-      Diseño de Spots                
-    </p>              
+    <Fade bottom cascade>
+      <div>
+        <p className="selected">
+          Consultoria y Diseño Acústico
+          <br/>
+          Musica Publicitaria 
+          <br/>
+          Diseño de Spots                
+        </p>
+      </div>
+    </Fade>             
   );
 }
 

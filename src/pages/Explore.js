@@ -45,8 +45,8 @@ export default function Explore() {
                 </ul>
               </nav>
             </div>
-            <div className="division-services col-7" >                             
-                <ExploreRoutes />
+            <div className="division-services col-7" >
+                    <ExploreRoutes />
             </div>
           </div>
           <div className="down-navBar">              
