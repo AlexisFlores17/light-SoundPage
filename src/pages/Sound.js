@@ -4,7 +4,7 @@ import Fade from "react-reveal/Fade";
 function Sound() {
 
   return (
-    <Fade bottom cascade>
+    <Fade cascade>
       <div>
         <p className="selected">
           Consultoria y Diseño Acústico
