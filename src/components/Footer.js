@@ -7,7 +7,8 @@ export default function Footer() {
                 <div className="row">
                     <div className="col-sm">
                         <div className="contactanos">Hagámos algo juntos</div>
-                        <div className="project">¿Tienes algún desafío creativo para nosotros? Nos encantaría escucharlo</div>
+                        <div className="project">¿Tienes algún desafío creativo para nosotros? <br/>Nos encantaría escucharlo</div>
+                       
                     </div>
                     <div className="col-sm">
                         <p className="contact">
@@ -44,11 +45,12 @@ export default function Footer() {
                         </div>
                     </div>                   
                 </div>
-                <div className="row">
-                <div className="copyright">© LSD LAB 2020</div>
-                </div>
+                
+                
+                
                 
             </div>            
+            <div className="copyright">© LSD LAB 2020</div>
         </footer>
         
     )
