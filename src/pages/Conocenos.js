@@ -20,7 +20,7 @@ const team = [
 function Conocenos() {
 	
 return (
-	<Reveal effect="fadeindown" duration={10000}>
+	<Reveal effect="fadeindown" duration={2000}>
 		<div className="conocenos-container" >
 				
 			<div className="content">
