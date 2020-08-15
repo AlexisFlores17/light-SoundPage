@@ -26,7 +26,7 @@ export default function Explore() {
     return (
       <>
         <div className="explore-container">
-          <div className='row'>
+          <div className='row mr-0'>
             <div className='col-5'>
               <nav>
                 <ul>
