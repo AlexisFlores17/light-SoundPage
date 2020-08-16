@@ -4,6 +4,7 @@ import '../css/MainApp.scss';
 import facebook from '../images/facebook.png';
 import instagram from '../images/instagram.png';
 import gmail from '../images/gmail.png';
+import imgContacto from '../images/distur.jpeg';
 
 function Contacto() {
 
@@ -13,32 +14,22 @@ return (
 			<div id='div-img-contacto'>
 				<img className='contacto-img img-fluid' src ={contactoImg} alt='contacto' />
 			</div>		
+			<div>
+				<div>
+					"El arte desafía a la tecnología y la tecnología inspira al arte"
+				</div>
+				<div>
+					-John Lasseter.
+				</div>
 
-			<div className='col-6'>
-				<div className='col-6'>Contacto</div>
-				<div className='row'>
-					<div className='col-6'>
-						<img src={facebook}/>
-					</div>
-					<div className='col-6'>
-						https://www.facebook.com/lab.lsd
-					</div>
+				<div>
+					Texto inspiracional pa que nos contacte la bandita alterada
+
+					Enim aliquip enim ut exercitation quis ullamco. Cupidatat magna fugiat id irure ullamco. Incididunt laborum fugiat elit cupidatat minim nostrud do veniam. Dolore occaecat excepteur minim sint Lorem aliquip aute anim dolor sit nostrud esse dolor. Est consequat laboris et sint cillum excepteur irure eu ad aute.
 				</div>
-				<div className='row'>
-					<div className='col-6'>
-						<img src={instagram}/>
-					</div>
-					<div className='col-6'>
-						https://www.instagram.com/lsd.labs
-					</div>
-				</div>
-				<div className='row'>
-					<div className='col-6'>
-						<img src={gmail}/>
-					</div>
-					<div className='col-6'>
-						contacto@lsdlab.com.mx
-					</div>
+
+				<div className="img-fluid">
+					<img className="rounded float-right" src={imgContacto}/>
 				</div>
 			</div>
 		</div>	
