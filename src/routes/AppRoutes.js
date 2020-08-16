@@ -1,3 +1,4 @@
+import { Copyright } from '../components/Copyright';
 import React from 'react';
 import {
     BrowserRouter as Router,
@@ -13,6 +14,7 @@ import { PageError } from '../pages/PageError';
 import { Home } from '../pages/Home';
 import Header from '../components/Header';
 import Explore from '../pages/Explore';
+
 
 export const AppRoutes = () => {
     return (
@@ -37,6 +39,7 @@ export const AppRoutes = () => {
                     </Route>
                     <Route path='/Contacto'>
                         <Contacto />
+                        <Copyright />
                     </Route>
                     <Route exact path='/404'>
                         <PageError />
