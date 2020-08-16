@@ -10,7 +10,7 @@ function Contacto() {
 
 return (    
 	<>
-		<div className='col-12 container'>
+		<div className='col-12'>
 			<div id='div-img-contacto'>
 				<img className='contacto-img img-fluid' src ={contactoImg} alt='contacto' />
 			</div>		
