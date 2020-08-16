@@ -3,6 +3,7 @@ import contactoImg from '../images/contacto.jpg';
 import '../css/MainApp.scss';
 import facebook from '../images/facebook.png';
 import instagram from '../images/instagram.png';
+
 import gmail from '../images/gmail.png';
 import imgContacto from '../images/distur.jpeg';
 
@@ -31,9 +32,31 @@ return (
 					<img className="img-fluid rounded" src={imgContacto}/>
 				</div>
 
-				<div className='contacto-redes'>
-					
-				</div>
+				<div className="social-icons-contacto">   
+					<a href="https://www.instagram.com/lab_lsd/" rel="noopener noreferrer" target="_blank">
+						<div className="icon">
+							<span className="icon-text">IG</span>
+						</div>
+					</a>  
+
+					<a href="https://www.facebook.com/lab.lsd" rel="noopener noreferrer" target="_blank">
+						<div className="icon">
+							<span className="icon-text">FB</span>
+						</div>
+					</a>
+
+					<a href="https://twitter.com/lab_lsd" rel="noopener noreferrer" target="_blank">
+						<div className="icon">
+							<span className="icon-text">TW</span>
+						</div>
+					</a>
+
+					<a href="https://www.linkedin.com/company/light-sound-disruptive-lab" rel="noopener noreferrer" target="_blank">
+						<div className="icon">
+							<span className="icon-text">LKD</span>
+						</div>
+					</a>                
+                </div>
 			</div>
 		</div>	
 	</>
