@@ -5,8 +5,8 @@ export default function Footer() {
         <footer>
             <div className="container">
                 <div className="row">
-                    <div className="col-sm">
-                        <div className="contactanos">Hagámos algo juntos</div>
+                    <div className="col-sm" id="hagamos">
+                        <div className="contactanos">Hagamos algo juntos</div>
                         <div className="project">¿Tienes algún desafío creativo para nosotros? <br/>Nos encantaría escucharlo</div>
                        
                     </div>
