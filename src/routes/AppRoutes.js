@@ -37,7 +37,6 @@ export const AppRoutes = () => {
                     </Route>
                     <Route path='/Contacto'>
                         <Contacto />
-                        <Footer/>
                     </Route>
                     <Route exact path='/404'>
                         <PageError />
