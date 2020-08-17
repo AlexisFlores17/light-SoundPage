@@ -1,4 +1,24 @@
 
+.contacto-div-img{
+  overflow: hidden;
+  height: 400px;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+    img{
+      position:relative;
+      width: 100%;
+      top: -320px;
+      z-index: -1;
+    }
+}
+.contacto-quote{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 27px;
+}
 
 .contacto-img{
     

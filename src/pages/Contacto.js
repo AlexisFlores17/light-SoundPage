@@ -7,15 +7,16 @@ function Contacto() {
 return (    
 	<>
 		<div className='col-12'>
-			<div id='div-img-contacto'>
+			<div className='contacto-div-img'>
 				<img className='contacto-img img-fluid' src ={contactoImg} alt='contacto' />
-			</div>		
-			<div className='contacto-content'>
 				<div className='contacto-quote'>
 					"El arte desafía a la tecnología y la tecnología inspira al arte"
 					<br/>
 					-John Lasseter.
 				</div>
+			</div>		
+			<div className='contacto-content'>
+
 
 				<div className='contacto-texto'>
 					Texto inspiracional pa que nos contacte la bandita alterada
