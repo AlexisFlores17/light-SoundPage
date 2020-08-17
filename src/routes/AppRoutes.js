@@ -26,8 +26,7 @@ export const AppRoutes = () => {
                         <Home />
                     </Route>      
                     <Route path='/explore'>
-                        <Explore />
-                        <Footer/>
+                        <Explore />                        
                     </Route>
                     <Route path='/Conocenos'>
                         <Conocenos />
