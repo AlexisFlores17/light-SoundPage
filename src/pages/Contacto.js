@@ -21,11 +21,11 @@ return (
 
 				<div className='contacto-info col-6'>
 					<div>
-						<div className='text-xl mb-5'>Texto inspiracional pa que nos contacte la bandita alterada</div>
+						<div className='text-xl mb-5'>Hagamos de tu sueño un proyecto juntos</div>
 
 						<div className='text-md-left'>
-							Enim aliquip enim ut exercitation quis ullamco. Cupidatat magna fugiat id irure ullamco. Incididunt laborum fugiat elit cupidatat minim nostrud do veniam. Dolore occaecat excepteur minim sint Lorem aliquip aute anim dolor sit nostrud esse dolor. Est consequat laboris et sint cillum excepteur irure eu ad aute.
-							Id minim velit consequat anim occaecat velit elit. Cupidatat magna fugiat sunt labore. Velit labore aliquip in velit. Proident ex nulla occaecat laboris cupidatat cupidatat veniam nisi aliqua exercitation nulla ipsum et aliquip. Cupidatat cillum culpa dolore amet eiusmod officia aliquip.			
+							Sit id do irure enim adipisicing laboris proident. Eiusmod eu ea Lorem nostrud ut aute adipisicing ea nisi pariatur reprehenderit eiusmod. Officia occaecat nulla ullamco dolor duis. Excepteur anim non est deserunt id adipisicing est tempor proident ut nostrud eiusmod irure.
+							Proident ullamco fugiat nisi eu sunt Lorem ex esse incididunt. Incididunt aute consequat occaecat occaecat adipisicing irure nisi reprehenderit dolore incididunt non ipsum. Dolore eiusmod magna excepteur voluptate deserunt occaecat esse nulla fugiat occaecat ex adipisicing aliquip.
 						</div>
 					</div>
 
