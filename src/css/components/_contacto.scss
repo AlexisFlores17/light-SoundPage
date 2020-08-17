@@ -1,5 +1,5 @@
 
-.contacto-div-img{
+.contacto-div-top{
   overflow: hidden;
   height: 400px;
   position: relative;
@@ -43,8 +43,12 @@
     }
 }
 
-.social-icons-contacto{      
-    margin-top: 1rem;
+.social-icons-contacto{ 
+  padding-top: 100px;
+  align-content: center;
+  display:flex;
+  justify-content: center;
+  flex-direction: row;
     .icon{    
       border-radius: 50%;
       border: solid;

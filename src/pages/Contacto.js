@@ -9,19 +9,19 @@ function Contacto() {
 return (    
 	<Reveal effect="fadeindown" duration={2000}>
 		<div className='col-12'>
-			<div className='contacto-div-img'>
+			<div className='contacto-div-top'>
 				<img className='contacto-img img-fluid' src ={contactoImg} alt='contacto' />
 				<div className='contacto-quote rounded' >
-					<Fade top delay={1000}>"El arte desafía a la tecnología y la tecnología inspira al arte"</Fade>
+					<Fade top delay={1000} >"El arte desafía a la tecnología y la tecnología inspira al arte"</Fade>
 					<br/>
-					<Fade top delay={2000}>-John Lasseter.</Fade>
+					<Fade top delay={2000} >-John Lasseter.</Fade>
 				</div>
 			</div>		
 			<div className='contacto-content row'>
 
 				<div className='contacto-info col-6'>
 					<div>
-						<div className='text-xl'>Texto inspiracional pa que nos contacte la bandita alterada</div>
+						<div className='text-xl mb-5'>Texto inspiracional pa que nos contacte la bandita alterada</div>
 
 						<div className='text-md-left'>
 							Enim aliquip enim ut exercitation quis ullamco. Cupidatat magna fugiat id irure ullamco. Incididunt laborum fugiat elit cupidatat minim nostrud do veniam. Dolore occaecat excepteur minim sint Lorem aliquip aute anim dolor sit nostrud esse dolor. Est consequat laboris et sint cillum excepteur irure eu ad aute.
@@ -29,7 +29,7 @@ return (
 						</div>
 					</div>
 
-					<div className="social-icons-contacto">   
+					<div className="social-icons-contacto row">   
 						<a href="https://www.instagram.com/lab_lsd/" rel="noopener noreferrer" target="_blank">
 							<div className="icon">
 								<span className="icon-text">IG</span>
