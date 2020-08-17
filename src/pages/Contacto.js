@@ -29,7 +29,7 @@ return (
 						</div>
 					</div>
 
-					<div className="social-icons-contacto row">   
+					<div className="social-icons-contacto">   
 						<a href="https://www.instagram.com/lab_lsd/" rel="noopener noreferrer" target="_blank">
 							<div className="icon">
 								<span className="icon-text">IG</span>
