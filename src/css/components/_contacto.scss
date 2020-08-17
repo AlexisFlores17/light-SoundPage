@@ -3,13 +3,11 @@
   overflow: hidden;
   height: 400px;
   position: relative;
-  display: inline-block;
   text-align: center;
     img{
       position:relative;
       width: 100%;
       top: -320px;
-      z-index: -1;
     }
 }
 .contacto-quote{
@@ -76,4 +74,12 @@
         transform: translate(-50%, -50%);
       }
     }
+  }
+
+  @media  (max-width: 768px){
+
+  }
+
+  @media  (max-width: 576px){
+
   }
