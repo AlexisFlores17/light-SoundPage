@@ -112,44 +112,58 @@ header {
 }
 
 //Explore
-.explore-container {
+.explore-container {  
+  display: none;
   margin: 0;
   padding-left: 60px;  
   width: 100%;  
-  nav {    
-    ul {      
-      margin: 0;
-      padding: 0;
-      li {
-        list-style: none;
-        font-size: 6rem;
-        font-weight: 700;
-        cursor: pointer;
-        height: 140px;
-        overflow: hidden;
-        position: relative;
-        @media(max-width: 768px){
-          height: 87px !important;
-          font-size: 3rem !important;
-        }
-        @media(max-width: 300px){
-          height: 75px;
-          font-size: 2rem;
-        }
-        @media(max-height: 810px){
-          height: 105px;
-          font-size: 4rem;
-        }
-        @media(max-height: 630px){
-          height: 87px !important;
-          font-size: 3rem !important;
-        }
-        a {
-          position: absolute;
-          color: #fff;
-          text-decoration: none;
-          &:hover {
-            color: $magenta;
+  .menu-secondary-background-color {
+    background: $purple;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;    
+    z-index: -1;
+  }
+  .menu-layer{        
+    height: 100%;
+    overflow: hidden;    
+    nav {    
+      ul {      
+        margin: 0;
+        padding: 0;
+        li {
+          list-style: none;
+          font-size: 6rem;
+          font-weight: 700;
+          cursor: pointer;
+          height: 140px;
+          overflow: hidden;
+          position: relative;
+          @media(max-width: 768px){
+            height: 87px !important;
+            font-size: 3rem !important;
+          }
+          @media(max-width: 300px){
+            height: 75px;
+            font-size: 2rem;
+          }
+          @media(max-height: 810px){
+            height: 105px;
+            font-size: 4rem;
+          }
+          @media(max-height: 630px){
+            height: 87px !important;
+            font-size: 3rem !important;
+          }
+          a {
+            position: absolute;
+            color: #fff;
+            text-decoration: none;
+            &:hover {
+              color: $magenta;
+            }
           }
         }
       }
@@ -252,6 +266,7 @@ width: 70%;
 
 //footer
 footer{
+  display: none;
   text-align: center;
   color: white;   
   position: relative;
