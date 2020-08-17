@@ -23,6 +23,10 @@ export default function Explore() {
 
   } 
 
+  const scrollTop = () => {
+    window.scrollTo(0, 0);
+  }
+
     return (
       <>
         <div className="explore-container">
@@ -51,13 +55,13 @@ export default function Explore() {
           </div>
           <div className="down-navBar">              
             <div className="col-sm-4 col-12">
-              <Link to="/Conocenos" className="link btn-2">Conócenos</Link>
+              <Link to="/Conocenos" className="link btn-2" onClick={scrollTop}>Conócenos</Link>
             </div>
             <div className="col-sm-4 col-12">
-              <Link to="/Showreel" className="link btn-2">Showreel</Link>
+              <Link to="/Showreel" className="link btn-2" onClick={scrollTop}>Showreel</Link>
             </div>
             <div className="col-sm-4 col-12">
-              <Link to="/Contacto" className="link btn-2">Contacto</Link>
+              <Link to="/Contacto" className="link btn-2" onClick={scrollTop}>Contacto</Link>
             </div>                
           </div>
         </div>
