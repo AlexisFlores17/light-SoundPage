@@ -112,9 +112,6 @@ export default function Explore() {
           </div>
 
         </div>
-
-        </div>
-
         <footer style={{background:'#300B76'}}>
             <div className="container">
                 <div className="row">
@@ -165,6 +162,10 @@ export default function Explore() {
             </div>            
             <div className="copyright">© LSD LAB 2020</div>
         </footer>
+
+        </div>
+
+        
         
         
       </>
