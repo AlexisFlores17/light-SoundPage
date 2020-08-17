@@ -9,7 +9,7 @@ return (
 		<div className='col-12'>
 			<div className='contacto-div-img'>
 				<img className='contacto-img img-fluid' src ={contactoImg} alt='contacto' />
-				<div className='contacto-quote'>
+				<div className='contacto-quote rounded'>
 					"El arte desafía a la tecnología y la tecnología inspira al arte"
 					<br/>
 					-John Lasseter.
