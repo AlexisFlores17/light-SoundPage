@@ -73,7 +73,7 @@ export default function Explore() {
           <div ref={el => revealExploreBackground = el} className="menu-secondary-background-color"></div>
           <div ref={el => revealExplore = el} className="menu-layer">
           <div className='row mr-0'>
-            <div className='col-5'>
+            <div className='col-12 col-sm-6 col-md-5'>
               <nav>
                 <ul>
                   <li>
@@ -91,7 +91,7 @@ export default function Explore() {
                 </ul>
               </nav>
             </div>
-            <div className="division-services col-7" >
+            <div className="division-services col-sm-6 col-md-7" >
                     <ExploreRoutes />
             </div>
           </div>
