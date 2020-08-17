@@ -1,53 +1,10 @@
-import React, {useEffect, useRef} from 'react'
+import React from 'react'
 import {Link} from 'react-router-dom'
 import gsap from 'gsap'
 import { ExploreRoutes } from '../routes/ExploreRoutes'
-import Footer from '../components/Footer';
 
 
-export default function Explore() { 
-  let explore = useRef(null)
-  let revealExplore = useRef(null)
-  let revealExploreBackground = useRef(null)
-  let line1 = useRef(null)
-  let line2 = useRef(null)
-  let line3 = useRef(null)
-  let line4 = useRef(null)
-
-  useEffect(() => {
-    gsap.to(explore, {
-      duration: 0,
-      css: {display: "block"}
-    })
-
-    staggerReveal(revealExploreBackground, revealExplore)
-    staggerText(line1, line2, line3, line4)
-
-  },[])
-
-  const staggerReveal = (node1, node2) => {
-    gsap.from([node1, node2], {
-      duration: 1, 
-      height: 0, 
-      transformOrigin: 'left bottom',
-      skewY: 2,
-      ease: 'power3.inOut',
-      
-
-    })
-  }
-  const staggerText = (node1, node2, node3, node4) => {
-    gsap.from([node1, node2, node3, node4], {
-      duration: 1, 
-      y: 100,
-      delay: 0.1,
-      ease: 'power3.inOut', 
-      stagger: {
-        amount: 0.4
-      }
-    })
-  }
-
+export default function Explore() {  
   const handleHover = e => {    
     gsap.to(e.target, {
       duration: 0.3,
@@ -66,31 +23,24 @@ export default function Explore() {
 
   } 
 
-  const scrollTop = () => {
-    window.scrollTo(0, 0);
-  }
-
     return (
       <>
-        
-        <div ref={el => explore = el} className="explore-container">  
-        <div ref={el => revealExploreBackground = el} className="menu-secondary-background-color"></div>
-        <div ref={el => revealExplore = el} className="menu-layer">
-        <div className='row mr-0'>
+        <div className="explore-container">
+          <div className='row mr-0'>
             <div className='col-5'>
               <nav>
                 <ul>
                   <li>
-                    <Link onMouseEnter={e => handleHover(e)} onMouseOut={e => handleHoverExit(e)} ref = {el => line1 = el} to="/explore/Light">Light</Link>
+                    <Link onMouseEnter={e => handleHover(e)} onMouseOut={e => handleHoverExit(e)} to="/explore/Light">Light</Link>
                   </li>
                   <li>
-                    <Link onMouseEnter={e => handleHover(e)} onMouseOut={e => handleHoverExit(e)} ref = {el => line2 = el}  to="/explore/Sound">& Sound</Link>
+                    <Link onMouseEnter={e => handleHover(e)} onMouseOut={e => handleHoverExit(e)}  to="/explore/Sound">& Sound</Link>
                   </li>
                   <li>
-                    <Link onMouseEnter={e => handleHover(e)} onMouseOut={e => handleHoverExit(e)} ref = {el => line3 = el} to="/explore/Disruptive">Disruptive</Link>
+                    <Link onMouseEnter={e => handleHover(e)} onMouseOut={e => handleHoverExit(e)} to="/explore/Disruptive">Disruptive</Link>
                   </li>
                   <li>
-                    <Link onMouseEnter={e => handleHover(e)} onMouseOut={e => handleHoverExit(e)} ref = {el => line4 = el}  to="/explore/Lab">Lab</Link>
+                    <Link onMouseEnter={e => handleHover(e)} onMouseOut={e => handleHoverExit(e)}  to="/explore/Lab">Lab</Link>
                   </li>
                 </ul>
               </nav>
@@ -101,24 +51,16 @@ export default function Explore() {
           </div>
           <div className="down-navBar">              
             <div className="col-sm-4 col-12">
-              <Link to="/Conocenos" className="link btn-2" onClick={scrollTop}>Conócenos</Link>
+              <Link to="/Conocenos" className="link btn-2">Conócenos</Link>
             </div>
             <div className="col-sm-4 col-12">
-              <Link to="/Showreel" className="link btn-2" onClick={scrollTop}>Showreel</Link>
+              <Link to="/Showreel" className="link btn-2">Showreel</Link>
             </div>
             <div className="col-sm-4 col-12">
-              <Link to="/Contacto" className="link btn-2" onClick={scrollTop}>Contacto</Link>
+              <Link to="/Contacto" className="link btn-2">Contacto</Link>
             </div>                
           </div>
-
         </div>
-        
-
-        </div>
-        
-
-        
-        
         
       </>
     )
