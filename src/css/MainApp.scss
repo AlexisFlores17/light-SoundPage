@@ -116,6 +116,9 @@ header {
   margin: 0;
   padding-left: 60px;  
   width: 100%;  
+  @media (max-width:768px){
+    padding-left: 30px;
+  }
   nav {    
     ul {      
       margin: 0;
@@ -160,7 +163,7 @@ header {
 .down-navBar {  
   margin: 40px 0 60px -60px;
   @media(max-height: 630px){
-    margin: 20px 0 60px -60px;
+    margin: 20px 0 60px -30px;
   }
   div{
     display: inline-block;
