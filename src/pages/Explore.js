@@ -73,7 +73,7 @@ export default function Explore() {
     return (
       <>
         
-        <div ref={el => explore = el} className="explore-container" >  
+        <div ref={el => explore = el} className="explore-container">  
         <div ref={el => revealExploreBackground = el} className="menu-secondary-background-color"></div>
         <div ref={el => revealExplore = el} className="menu-layer">
         <div className='row mr-0'>
