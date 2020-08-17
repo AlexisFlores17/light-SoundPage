@@ -112,7 +112,7 @@ export default function Explore() {
           </div>
 
         </div>
-        <footer style={{background:'#300B76'}}>
+        <footer>
             <div className="container">
                 <div className="row">
                     <div className="col-sm" id="hagamos">
