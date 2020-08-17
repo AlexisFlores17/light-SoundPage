@@ -1,10 +1,5 @@
 import React from "react";
 import contactoImg from '../images/contacto.jpg';
-import '../css/MainApp.scss';
-import facebook from '../images/facebook.png';
-import instagram from '../images/instagram.png';
-
-import gmail from '../images/gmail.png';
 import imgContacto from '../images/distur.jpeg';
 
 function Contacto() {
