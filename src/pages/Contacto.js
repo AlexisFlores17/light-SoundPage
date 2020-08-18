@@ -11,7 +11,7 @@ return (
 		<div className='col-12'>
 			<div className='contacto-div-top'>
 				<img className='contacto-img img-fluid' src ={contactoImg} alt='contacto' />
-				<div className='contacto-quote rounded' >
+				<div className='contacto-quote rounded col-12' >
 					<Fade top delay={1000} >"El arte desafía a la tecnología y la tecnología inspira al arte"</Fade>
 					<br/>
 					<Fade top delay={2000} >-John Lasseter.</Fade>
@@ -19,14 +19,12 @@ return (
 			</div>		
 			<div className='contacto-content row'>
 
-				<div className='contacto-info col-6'>
-					<div>
-						<div className='text-xl mb-5'>Hagamos de tu sueño un proyecto juntos</div>
+				<div className='contacto-info col-6 '>
+					<div className='text-xl mb-5'>Hagamos de tu sueño un proyecto juntos</div>
 
-						<div className='text-md-left'>
-							Sit id do irure enim adipisicing laboris proident. Eiusmod eu ea Lorem nostrud ut aute adipisicing ea nisi pariatur reprehenderit eiusmod. Officia occaecat nulla ullamco dolor duis. Excepteur anim non est deserunt id adipisicing est tempor proident ut nostrud eiusmod irure.
-							Proident ullamco fugiat nisi eu sunt Lorem ex esse incididunt. Incididunt aute consequat occaecat occaecat adipisicing irure nisi reprehenderit dolore incididunt non ipsum. Dolore eiusmod magna excepteur voluptate deserunt occaecat esse nulla fugiat occaecat ex adipisicing aliquip.
-						</div>
+					<div className='text-md-left'>
+						Sit id do irure enim adipisicing laboris proident. Eiusmod eu ea Lorem nostrud ut aute adipisicing ea nisi pariatur reprehenderit eiusmod. Officia occaecat nulla ullamco dolor duis. Excepteur anim non est deserunt id adipisicing est tempor proident ut nostrud eiusmod irure.
+						Proident ullamco fugiat nisi eu sunt Lorem ex esse incididunt. Incididunt aute consequat occaecat occaecat adipisicing irure nisi reprehenderit dolore incididunt non ipsum. Dolore eiusmod magna excepteur voluptate deserunt occaecat esse nulla fugiat occaecat ex adipisicing aliquip.
 					</div>
 
 					<div className="social-icons-contacto">   
@@ -55,11 +53,9 @@ return (
 						</a>                
 					</div>
 				</div>
-
 				<div className="contacto-img col-6">
 					<img className="img-fluid rounded" src={imgContacto}/>
 				</div>
-				
 			</div>
 		</div>	
 	</Reveal>
