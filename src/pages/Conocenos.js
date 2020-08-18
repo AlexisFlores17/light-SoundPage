@@ -7,6 +7,7 @@ import Reveal from "react-reveal/Fade";
 import diana from '../images/diana.jpeg'
 import mija from '../images/mija.jpeg'
 import mauro from '../images/mauro.jpeg'
+import equipo from '../images/equipo.jpg'
 
 const team = [
 	{name: "Alexis Flores", descripcion: "Director tecnológico, curador de memes, siempre buscando nuevas tecnologías(en Amazon). Se pasó el metal slug con una moneda", imagen: alex},
@@ -24,7 +25,9 @@ function Conocenos() {
 return (
 	<Reveal effect="fadeindown" duration={2000}>
 		<div className="conocenos-container" >
-				
+			<div className='conocenos-div-top'>
+				<img className='conocenos-img img-fluid' src ={equipo} alt='equipo' />
+			</div>	
 			<div className="content">
 				<div className="description">Somos un equipo de creadores, pensadores, exploradores y nerds tecnológicos. Nos enfocamos en nuestros proyectos con curiosidad y experimentación, usando todo lo que aprendemos para diseñar experiencias que conecten con personas como tú.</div>			
 				<h2>Filosofía</h2>		
