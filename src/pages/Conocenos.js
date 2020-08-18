@@ -25,7 +25,7 @@ function Conocenos() {
 return (
 	<Reveal effect="fadeindown" duration={2000}>
 		<div className="conocenos-container" >
-			<div className='conocenos-div-top'>
+			<div className='conocenos-div-img'>
 				<img className='conocenos-img img-fluid' src ={equipo} alt='equipo' />
 			</div>	
 			<div className="content">

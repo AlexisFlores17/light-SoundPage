@@ -1,5 +1,18 @@
 
 //conocenos
+
+.conocenos-div-img{
+    overflow: hidden;
+    height: 400px;
+    position: relative;
+    text-align: center;
+      img{
+        position:relative;
+        width: 100%;
+        top: 20px;
+      }
+  }
+
 .conocenos-container{
     color: white;
     text-align: center;
