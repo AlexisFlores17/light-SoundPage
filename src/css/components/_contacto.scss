@@ -5,8 +5,9 @@
   position: relative;
   text-align: center;
     img{
-
+      position: relative;
       width: 100%;
+      top:-10px;
     }
 }
 .contacto-quote{
@@ -26,18 +27,19 @@
 .contacto-content{
   margin-top:100px ;
   padding: 20px;
+  display: flex;
 }
 
 .contacto-info{
+  position: relative;
   color:white;
   width: 50%;
 }
 
 .contacto-img{
-    
-    img{
-        width: 100vh;
-    }
+  
+  position: relative;
+
 }
 
 .social-icons-contacto{ 
@@ -76,9 +78,30 @@
   }
 
   @media  (max-width: 768px){
+    .contacto-div-top{
+      height: 300px;
+    }
+    .contacto-content{
+      margin-top:0;
+      align-content: center;
+      justify-content: center;
+      flex-direction: column-reverse;
+    }
+    
 
+    .contacto-img{
+      position: relative;
+      top: 85px;
+      height: 300px !important;
+    }
+
+    .contacto-info{
+      align-content: center;
+      justify-content: center;
+    }
   }
 
   @media  (max-width: 576px){
+
 
   }

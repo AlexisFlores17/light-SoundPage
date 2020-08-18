@@ -10,16 +10,17 @@ return (
 	<Reveal effect="fadeindown" duration={2000}>
 		<div className='col-12'>
 			<div className='contacto-div-top'>
-				<img className='contacto-img img-fluid' src ={contactoImg} alt='contacto' />
+				<img className='contacto-img-top img-fluid' src ={contactoImg} alt='contacto' />
 				<div className='contacto-quote rounded col-12' >
 					<Fade top delay={1000} >"El arte desafía a la tecnología y la tecnología inspira al arte"</Fade>
 					<br/>
 					<Fade top delay={2000} >-John Lasseter.</Fade>
 				</div>
 			</div>		
-			<div className='contacto-content row'>
+			<div className='contacto-content col-12'>
 
-				<div className='contacto-info col-6 '>
+				<div className='contacto-info col-sm-6 col-xl-6'>
+
 					<div className='text-xl mb-5'>Hagamos de tu sueño un proyecto juntos</div>
 
 					<div className='text-md-left'>
@@ -53,7 +54,7 @@ return (
 						</a>                
 					</div>
 				</div>
-				<div className="contacto-img col-6">
+				<div className="contacto-img col-sm-6 col-xl-6">
 					<img className="img-fluid rounded" src={imgContacto}/>
 				</div>
 			</div>
