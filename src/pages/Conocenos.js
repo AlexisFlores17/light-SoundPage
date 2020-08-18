@@ -4,14 +4,16 @@ import destruido from '../images/destruido300.JPG'
 import lorenzo from '../images/lorenzo300.png'
 import alex from '../images/alex300.JPG'
 import Reveal from "react-reveal/Fade";
+import diana from '../images/diana.jpeg'
+import mija from '../images/mija.jpeg'
 
 
 const team = [
 	{name: "Alexis Flores", descripcion: "Director tecnológico, curador de memes, siempre buscando nuevas tecnologías(en Amazon). Se pasó el metal slug con una moneda", imagen: alex},
 	{name: "Alexis Guerrero", descripcion: "Director de interactividad, rockstar retirado, amante de los taquitos de tripita y una vez casi hizo un 300 en el boliche", imagen: destruido},
-	{name: "Diana Urquiza", descripcion: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed odio nisi, lacinia sed viverra et, dictum vitae nunc.", imagen: "http://placekitten.com/g/300/300"},
+	{name: "Diana Urquiza", descripcion: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed odio nisi, lacinia sed viverra et, dictum vitae nunc.", imagen: diana},
 	{name: "Lorenzo Torres", descripcion: "Director creativo, gurú del front-end y K-pop connoisseur.", imagen: lorenzo},	
-	{name: "Mijael Gutiérrez", descripcion: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed odio nisi, lacinia sed viverra et, dictum vitae nunc.", imagen: "http://placekitten.com/g/300/300"},
+	{name: "Mijael Gutiérrez", descripcion: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed odio nisi, lacinia sed viverra et, dictum vitae nunc.", imagen: mija},
 	{name: "Mauro Herrera", descripcion: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed odio nisi, lacinia sed viverra et, dictum vitae nunc.", imagen: "http://placekitten.com/g/300/300"},
 	
 ]
